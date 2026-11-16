@@ -26,3 +26,7 @@ The local preview is not a production service.
 - This is CI plus artifact delivery, not a deployed running application.
 
 This repository demonstrates a simple website validation and delivery workflow.
+
+## Repository structure
+
+The website source is in `src/`. The validation and build scripts are in `tools/`, and automated checks are defined in `.github/workflows/ci.yml`.
